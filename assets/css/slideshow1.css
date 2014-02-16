@@ -1,0 +1,225 @@
+/*
++---------------------------------------------------------------------------+
+| Wilson Lam Wesite - Stable - Version 2.0 - Licence Owner Wilson Lam		|
+|===========================================================================|
+| Websites:  HERE															|
+| Author: Wilson Lam														|
+| Website design by: Wilson Lam												|
+| Copyright (C) 2005-2013 Wilson Lam. All Rights Reserved.					|
+| Site & site code may not be redistributed in whole or part.				|
++---------------------------------------------------------------------------+
+*/
+
+/* Shadow over slideshow1 */
+#HomeSlideshowOverShadow {
+	top: 0px;
+	position: absolute;
+	height: 100.25%;
+	width: 100%;
+	/* Background Color Circulat (Black Transparent) */
+	-moz-box-shadow: inset -3px 0 16px 16px rgba(0,0,0,0.25);
+	-webkit-box-shadow: inset -3px 0 16px 16px rgba(0,0,0,0.25);
+	box-shadow: inset -3px 0 16px 16px rgba(0,0,0,0.25);
+	z-index: 2;
+}
+
+/* Slideshow personal background */
+.slideshow1remakeborder {
+	border: 1px solid #000;	/* Important border is not thin!!! */
+	height: 300px;	
+}
+
+/* Keep Slideshow Create the TOP border of slideshow */
+.slideshowCG1-SS1MainWrap {
+	padding: 12px 15px 15px 15px;
+}
+
+/* Important to movement of Slide */
+.slideshowCG1-slidewrap {
+	border: 1px solid #000;
+	position: relative;
+}
+
+.slideshowCG1-mainslideshow1-enclose1 {
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.slideshowCG1-main-slide {
+	position:relative;
+}
+
+/* Large Image */
+.slideshowCG1-slide-item {
+	display: block;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+/* Hide the description */
+.slideshowCG1-slide-popupSS1texts {
+	display: none;
+}
+
+/*----------------------------------------------------*/
+/* 660 Masking disppear without this property */
+.popupmaskDesc {
+	background: #000;
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	z-index: 99;
+}
+/* 660 Text popup Box Padding and font size (all text) */
+.popupmaskDesc .slideshowCG1-slide-popupSS1text {
+	color: #FFF;
+	font-size: 110%;
+	padding: 10px 20px;
+	text-decoration: none !important;
+	/* If (popupmask height is 100: 15px 25px)(popupmask height is 75-80: 5px 20px) */
+}
+
+/* 660 heading text decoration NICE feature! */
+.popupmaskDesc:hover .slideshowCG1-slide-popupSS1text a,
+.popupmaskDesc:hover .slideshowCG1-slide-popupSS1text a:hover,
+.popupmaskDesc:hover .slideshowCG1-slide-popupSS1text a:focus,
+.popupmaskDesc:hover .slideshowCG1-slide-popupSS1text a:active {
+	border: none !important;
+	text-decoration: underline !important;
+}
+
+/* 660 heading text size, color, weight */
+.popupmaskDesc .slideshowCG1-slide-popupSS1text a span {
+	color: #FFF;
+	font-size: 175%;
+	font-weight: bold;
+}
+
+/* Positioning of SS1scroll Menu*/
+.popupmaskpopupSS1text .slideshowCG1-slide-popupSS1text h3 {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/* SS1scroll Menu
+--------------------------------------------------------*/
+/* Make SS1scroll Align Horizontal Right (Important) ---*/
+.slideshowCG1-vertical_right {
+	right: 0 !important;
+	top: 0 !important;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1000;
+}
+
+/* Make SS1scroll Align Horizontal Right (Important though not used) ---*/
+.slideshowCG1-vertical_left {
+	left: 0 !important;
+	top: 0 !important;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1000;
+}
+
+/* Affect SS1scroll Menu Handles the motion */
+.slideshowCG1-slide-thumbnails, .slideshowCG1-slide-thumbnails-popupmask, .slideshowCG1-slide-thumbnailsLVes {
+	position: absolute;
+	width: 100%;
+}
+
+/* Don't Remove IE fail to work when removed! Removing this give nice alt text description (Don't delete just comment out!)*/
+/* Don't put comma to separate these two will fail!!! */
+.slideshowCG1-MCEs .slideshowCG1-slide-thumbnailsLVes {
+	background: #000;
+	filter: alpha(opacity=0);
+	opacity: 0.0;
+}
+
+/* Affect Slideshow motion */
+.slideshowCG1-slide-thumbnail, .slideshowCG1-slide-thumbnailsLVes span {
+	cursor: pointer;
+	display: block;
+	float: left;
+	margin: 0px !important;
+}
+
+/* Change the 60x60 image padding (Important Affect Slideshow feature)*/
+.slideshowCG1-slide-thumbnail-inside1 {
+	background: #fff;
+	border-top: 1px solid #555;
+	color: #666;
+	height: 100%;
+	margin-left: 15px; /* Give space to SS1scroll text and control arrow 0-21 */
+	padding: 0 15px;
+}
+
+/* Affect Slideshow feature SS1scroll Menu */
+.slideshowCG1-slide-thumbnail-inside1 img {
+	background: #000;
+	border: 1px solid #ccc;
+	margin: 15px 8px 0 0; /* 60 image margin */
+	padding: 3px;
+}
+
+/* Scroll Menu text position from top */
+.slideshowCG1-slide-thumbnail-inside1 h3 {
+	margin: 0;
+	padding: 12px 0 0 0 !important;
+}
+
+/* SS1Scroll Small Text Color */
+/* SS1Scroll - keeps border and background (Don't remove has margin error if remove (almost not noticable)) etc. */
+.active .slideshowCG1-slide-thumbnail-inside1 {
+	border: none;
+	color: #fff;
+}
+
+/* Arrow for the slideshow ---------------------------------------------------------------------------------------- */
+.slideshowCG1-vertical_right .active {
+	background: url(../home/arrow/arrow1.gif) no-repeat center left;
+}
+
+/* Arrow for the slideshow ---------------------------------------------------------------------------------------- */
+.slideshowCG1-vertical_left .active {
+	background: url(../home/arrow/arrow2.gif) no-repeat center right;
+}
+
+/* Important for SS1scroll BG */
+.slideshowCG1-slide-thumbnails-wrap .active .slideshowCG1-slide-thumbnail-inside1 {
+	background: url() repeat-x top left #fff;
+}
+
+/* Heading Text Color of SS1scroll slider menu */
+.slideshowCG1-slide-thumbnails-wrap .slideshowCG1-slide-thumbnail-inside1 h3 { color: #fff !important; }
+
+/* BG color of SS1scroll */
+.slideshowCG1-slide-thumbnail-inside1 {
+	background: #0f151d;
+	border-top: 1px solid #1C232D;
+	color: #909db0;
+}
+
+/* Thumbs Border Color */
+.slideshowCG1-slide-thumbnail-inside1 img { background: #0f151d; border: 1px solid #262f3d; }
+
+/* Heading color SS1scroll */
+.slideshowCG1-slide-thumbnails-wrap .active .slideshowCG1-slide-thumbnail-inside1 h3 {
+	color: #555 !important;
+}
+
+/* SS1scroll text description color */
+.active .slideshowCG1-slide-thumbnail-inside1 {
+	color: #757575;
+}
+
+/* Important in keeping 60px border */
+.active .slideshowCG1-slide-thumbnail-inside1 img { background: #fff; border: 1px solid #ccc; }
+
+/* Important in keeping Position of SS1scroll */
+div.slideshowCG1-ssLSMenu, div.ssLSMenu {
+	margin: 0;
+	padding: 0 0 15px 0;
+	position: relative;
+}
