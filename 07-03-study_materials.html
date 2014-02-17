@@ -256,6 +256,7 @@ img660s6[5]="./assets/home/slideshow660px/6v005.jpg"
 // Slide 7
 var img660s7=new Array()
 img660s7[1]="./assets/home/slideshow660px/7v001.gif"
+img660s7[2]="./assets/home/slideshow660px/7v002.gif"
 // Slide 8
 var img660s8=new Array()
 img660s8[1]="./assets/home/slideshow660px/8v001.gif"
@@ -340,6 +341,7 @@ var img60s6=new Array()	// Link 6
 img60s6[1]="assets/home/slideshow60px/60-6.jpg"
 var img60s7=new Array()	// Link 7
 img60s7[1]="assets/home/slideshow60px/60-7.gif"
+img60s7[2]="assets/home/slideshow60px/60-7_2.jpg"
 var img60s8=new Array()	// Link 8
 img60s8[1]="assets/home/slideshow60px/60-8.png"
 var img60s9=new Array()	// Link 9
@@ -375,6 +377,34 @@ s8=1
 var s9=Math.floor(Math.random()*img660s9.length)
 if (s9==0)
 s9=1
+/////////////////////////////////////////////////////////
+var s60_1=Math.floor(Math.random()*img60s1.length)
+if (s60_1==0)
+s60_1=1
+var s60_2=Math.floor(Math.random()*img60s2.length)
+if (s60_2==0)
+s60_2=1
+var s60_3=Math.floor(Math.random()*img60s3.length)
+if (s60_3==0)
+s60_3=1
+var s60_4=Math.floor(Math.random()*img60s4.length)
+if (s60_4==0)
+s60_4=1
+var s60_5=Math.floor(Math.random()*img60s5.length)
+if (s60_5==0)
+s60_5=1
+var s60_6=Math.floor(Math.random()*img60s6.length)
+if (s60_6==0)
+s60_6=1
+var s60_7=Math.floor(Math.random()*img60s7.length)
+if (s60_7==0)
+s60_7=1
+var s60_8=Math.floor(Math.random()*img60s8.length)
+if (s60_8==0)
+s60_8=1
+var s60_9=Math.floor(Math.random()*img60s9.length)
+if (s60_9==0)
+s60_9=1
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -417,15 +447,15 @@ document.write(x660+link660s9[1]+'"><span class="headfor660">'+head660s9[1]+x660
 x60 = '<div class="slideshowCG1-slide-thumbnail" style="width: 310px; height: 100px;"><div class="slideshowCG1-slide-thumbnail-inside1"> <img src="';
 x60_1 = '" align="left" alt="';
 x60_4 = '</h3><span class="adesfor660">';
-document.write(x60+img60s1[1]+x60_1+head660s1[1]+'" title="'+head660s1[1]+'"><h3>'+head660s1[1]+x60_4+des660s1[1]+'</span></div></div>')
-document.write(x60+img60s2[1]+x60_1+head660s2[1]+'" title="'+head660s2[1]+'"><h3>'+head660s2[1]+x60_4+des660s2[1]+'</span></div></div>')
-document.write(x60+img60s3[1]+x60_1+head660s3[1]+'" title="'+head660s3[1]+'"><h3>'+head660s3[1]+x60_4+des660s3[1]+'</span></div></div>')
-document.write(x60+img60s4[1]+x60_1+head660s4[1]+'" title="'+head660s4[1]+'"><h3>'+head660s4[1]+x60_4+des660s4[1]+'</span></div></div>')
-document.write(x60+img60s5[1]+x60_1+head660s5[1]+'" title="'+head660s5[1]+'"><h3>'+head660s5[1]+x60_4+des660s5[1]+'</span></div></div>')
-document.write(x60+img60s6[1]+x60_1+head660s6[1]+'" title="'+head660s6[1]+'"><h3>'+head660s6[1]+x60_4+des660s6[1]+'</span></div></div>')
-document.write(x60+img60s7[1]+x60_1+head660s7[1]+'" title="'+head660s7[1]+'"><h3>'+head660s7[1]+x60_4+des660s7[1]+'</span></div></div>')
-document.write(x60+img60s8[1]+x60_1+head660s8[1]+'" title="'+head660s8[1]+'"><h3>'+head660s8[1]+x60_4+des660s8[1]+'</span></div></div>')
-document.write(x60+img60s9[1]+x60_1+head660s9[1]+'" title="'+head660s9[1]+'"><h3>'+head660s9[1]+x60_4+des660s9[1]+'</span></div></div>')
+document.write(x60+img60s1[s60_1]+x60_1+head660s1[1]+'" title="'+head660s1[1]+'"><h3>'+head660s1[1]+x60_4+des660s1[1]+'</span></div></div>')
+document.write(x60+img60s2[s60_2]+x60_1+head660s2[1]+'" title="'+head660s2[1]+'"><h3>'+head660s2[1]+x60_4+des660s2[1]+'</span></div></div>')
+document.write(x60+img60s3[s60_3]+x60_1+head660s3[1]+'" title="'+head660s3[1]+'"><h3>'+head660s3[1]+x60_4+des660s3[1]+'</span></div></div>')
+document.write(x60+img60s4[s60_4]+x60_1+head660s4[1]+'" title="'+head660s4[1]+'"><h3>'+head660s4[1]+x60_4+des660s4[1]+'</span></div></div>')
+document.write(x60+img60s5[s60_5]+x60_1+head660s5[1]+'" title="'+head660s5[1]+'"><h3>'+head660s5[1]+x60_4+des660s5[1]+'</span></div></div>')
+document.write(x60+img60s6[s60_6]+x60_1+head660s6[1]+'" title="'+head660s6[1]+'"><h3>'+head660s6[1]+x60_4+des660s6[1]+'</span></div></div>')
+document.write(x60+img60s7[s60_7]+x60_1+head660s7[1]+'" title="'+head660s7[1]+'"><h3>'+head660s7[1]+x60_4+des660s7[1]+'</span></div></div>')
+document.write(x60+img60s8[s60_8]+x60_1+head660s8[1]+'" title="'+head660s8[1]+'"><h3>'+head660s8[1]+x60_4+des660s8[1]+'</span></div></div>')
+document.write(x60+img60s9[s60_9]+x60_1+head660s9[1]+'" title="'+head660s9[1]+'"><h3>'+head660s9[1]+x60_4+des660s9[1]+'</span></div></div>')
 <!-- Slideshow Image & Text Ending (60x60px) -->
 //////////////////////////////////////////////////
 
