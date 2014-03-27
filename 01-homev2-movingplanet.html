@@ -248,10 +248,7 @@ img660s1[3]="./assets/home/slideshow660px/1v003.jpg"
 img660s1[4]="./assets/home/slideshow660px/1v004.jpg"
 //Slide 2 
 var img660s2=new Array()
-img660s2[1]="./assets/home/slideshow660px/2v001.gif"
-img660s2[2]="./assets/home/slideshow660px/2v002.gif"
-img660s2[3]="./assets/home/slideshow660px/2v003.jpg"
-img660s2[4]="./assets/home/slideshow660px/2v004.jpg"
+img660s2[1]="./assets/home/slideshow660px/2v001.png"
 //Slide 3
 var img660s3=new Array()
 img660s3[1]="./assets/home/slideshow660px/3v001.jpg"
@@ -287,13 +284,19 @@ img660s8[2]="./assets/home/slideshow660px/8v002.png"
 img660s8[3]="./assets/home/slideshow660px/8v003.png"
 // Slide 9
 var img660s9=new Array()
-img660s9[1]="./assets/home/slideshow660px/new.gif"
+img660s9[1]="./assets/home/slideshow660px/9v001.gif"
+img660s9[2]="./assets/home/slideshow660px/9v002.gif"
+img660s9[3]="./assets/home/slideshow660px/9v003.jpg"
+img660s9[4]="./assets/home/slideshow660px/9v004.jpg"
+// Slide 10
+var img660s10=new Array()
+img660s10[1]="./assets/home/slideshow660px/new.gif"
 
 // Slideshow 660x300 Heading	(NOTE: Same heading is used in the 60x60) ////////////////////////////////////////////////////////
 var head660s1=new Array()	// Heading 1
 head660s1[1]="Project Magneton"
 var head660s2=new Array()	// Heading 2
-head660s2[1]="Balsa Wood Bridge"
+head660s2[1]="pocketRULER"
 var head660s3=new Array()	// Heading 3
 head660s3[1]="Team Robotic 2007"
 var head660s4=new Array()	// Heading 4
@@ -307,13 +310,15 @@ head660s7[1]="Linear Motion Table"
 var head660s8=new Array()	// Heading 8
 head660s8[1]="Connecting Rod"
 var head660s9=new Array()	// Heading 9
-head660s9[1]="Project 9"
+head660s9[1]="Balsa Wood Bridge"
+var head660s10=new Array()	// Heading 10
+head660s10[1]="Project 10"
 
 // Slideshow 660x300 Text	(NOTE: Same description is used in the 60x60) /////////////////////////////////////////////////////////
 var des660s1=new Array()	// Text 1
 des660s1[1]="Creating CAD model and assemblying physical model. (Rapid-Prototyping)"
 var des660s2=new Array()	// Text 2
-des660s2[1]="Creating CAD model, performing FEA, building physical model, and testing Balsa Wood Bridge."
+des660s2[1]="Creating CAD, FEA, physical model, and present working product after many design iterations"
 var des660s3=new Array()	// Text 3
 des660s3[1]="Designed to accomplish the task of collecting tennis ball. (Design Type: Conveyor Belt)"
 var des660s4=new Array()	// Text 4
@@ -327,13 +332,15 @@ des660s7[1]="Optimization of 6 bar linkage in Matlab and power analysis of motor
 var des660s8=new Array()	// Text 8
 des660s8[1]="Perform theoretical calculation then optimize and verify using Matlab, Abaqus, Comsol, and Solidworks."
 var des660s9=new Array()	// Text 9
-des660s9[1]="Not available yet."
+des660s9[1]="Creating CAD model, performing FEA, building physical model, and testing Balsa Wood Bridge."
+var des660s10=new Array()	// Text 10
+des660s10[1]="Not available yet."
 
 // Slideshow 660x300 Link	(NOTE: Same link is used in the 60x60) /////////////////////////////////////////////////////////////
 var link660s1=new Array()	// Link 1
 link660s1[1]="06-01-Magneton.html"
 var link660s2=new Array()	// Link 2
-link660s2[1]="06-02-Balsawood_Bridge.html"
+link660s2[1]="06-08-pocket-ruler.html"
 var link660s3=new Array()	// Link 3
 link660s3[1]="06-Projects.html"
 var link660s4=new Array()	// Link 4
@@ -347,13 +354,15 @@ link660s7[1]="06-07-linear_motion_table.html"
 var link660s8=new Array()	// Link 8
 link660s8[1]="06-12-connecting_rod.html"
 var link660s9=new Array()	// Link 9
-link660s9[1]="06-Projects.html"
+link660s9[1]="06-02-Balsawood_Bridge.html"
+var link660s10=new Array()	// Link 10
+link660s10[1]="06-Projects.html"
 
 // Slideshow 60x60 Image (Using same Heading & Description as above) /////////////////////////////////////////////////////////////
 var img60s1=new Array()	// Link 1
 img60s1[1]="assets/home/slideshow60px/60-1.jpg"
 var img60s2=new Array()	// Link 2
-img60s2[1]="assets/home/slideshow60px/60-2.jpg"
+img60s2[1]="assets/home/slideshow60px/60-2.gif"
 var img60s3=new Array()	// Link 3
 img60s3[1]="assets/home/slideshow60px/60-3.jpg"
 var img60s4=new Array()	// Link 4
@@ -368,7 +377,9 @@ img60s7[2]="assets/home/slideshow60px/60-7_2.jpg"
 var img60s8=new Array()	// Link 8
 img60s8[1]="assets/home/slideshow60px/60-8.png"
 var img60s9=new Array()	// Link 9
-img60s9[1]="assets/home/slideshow60px/new.gif"
+img60s9[1]="assets/home/slideshow60px/60-9.jpg"
+var img60s10=new Array()	// Link 10
+img60s10[1]="assets/home/slideshow60px/new.gif"
 
 ////////////////////////////////////////////
 // Variable Declaration and Randomization //
@@ -400,6 +411,9 @@ s8=1
 var s9=Math.floor(Math.random()*img660s9.length)
 if (s9==0)
 s9=1
+var s10=Math.floor(Math.random()*img660s10.length)
+if (s10==0)
+s10=1
 /////////////////////////////////////////////////////////
 var s60_1=Math.floor(Math.random()*img60s1.length)
 if (s60_1==0)
@@ -428,6 +442,9 @@ s60_8=1
 var s60_9=Math.floor(Math.random()*img60s9.length)
 if (s60_9==0)
 s60_9=1
+var s60_10=Math.floor(Math.random()*img60s10.length)
+if (s60_10==0)
+s60_10=1
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -442,6 +459,7 @@ document.write(w+img660s6[s6]+'" alt="'+head660s6[1]+'" title="'+head660s6[1]+'"
 document.write(w+img660s7[s7]+'" alt="'+head660s7[1]+'" title="'+head660s7[1]+'"></div>')
 document.write(w+img660s8[s8]+'" alt="'+head660s8[1]+'" title="'+head660s8[1]+'"></div>')
 document.write(w+img660s9[s9]+'" alt="'+head660s9[1]+'" title="'+head660s9[1]+'"></div>')
+document.write(w+img660s10[s10]+'" alt="'+head660s10[1]+'" title="'+head660s10[1]+'"></div>')
 <!-- Slideshow Image Ending (660x300px) -->
 //////////////////////////////////////////////////
         document.write('</div>')
@@ -461,6 +479,7 @@ document.write(x660+link660s6[1]+'"><span class="headfor660">'+head660s6[1]+x660
 document.write(x660+link660s7[1]+'"><span class="headfor660">'+head660s7[1]+x660_1+des660s7[1]+'</span></div>')
 document.write(x660+link660s8[1]+'"><span class="headfor660">'+head660s8[1]+x660_1+des660s8[1]+'</span></div>')
 document.write(x660+link660s9[1]+'"><span class="headfor660">'+head660s9[1]+x660_1+des660s9[1]+'</span></div>')
+document.write(x660+link660s10[1]+'"><span class="headfor660">'+head660s10[1]+x660_1+des660s10[1]+'</span></div>')
 <!-- Slideshow Heading, Description, Link Ending (660x300px) -->
 //////////////////////////////////////////////////
         document.write('</div>                      <div class="slideshowCG1-slide-thumbnails-wrap slideshowCG1-vertical_right" style="width: 310px; height: 300px;">	<div class="slideshowCG1-slide-thumbnails" style="left: 0px; top: 0px;">')
@@ -479,6 +498,7 @@ document.write(x60+img60s6[s60_6]+x60_1+head660s6[1]+'" title="'+head660s6[1]+'"
 document.write(x60+img60s7[s60_7]+x60_1+head660s7[1]+'" title="'+head660s7[1]+'"><h3>'+head660s7[1]+x60_4+des660s7[1]+'</span></div></div>')
 document.write(x60+img60s8[s60_8]+x60_1+head660s8[1]+'" title="'+head660s8[1]+'"><h3>'+head660s8[1]+x60_4+des660s8[1]+'</span></div></div>')
 document.write(x60+img60s9[s60_9]+x60_1+head660s9[1]+'" title="'+head660s9[1]+'"><h3>'+head660s9[1]+x60_4+des660s9[1]+'</span></div></div>')
+document.write(x60+img60s10[s60_10]+x60_1+head660s10[1]+'" title="'+head660s10[1]+'"><h3>'+head660s10[1]+x60_4+des660s10[1]+'</span></div></div>')
 <!-- Slideshow Image & Text Ending (60x60px) -->
 //////////////////////////////////////////////////
 
@@ -497,6 +517,7 @@ document.write(x60+img60s9[s60_9]+x60_1+head660s9[1]+'" title="'+head660s9[1]+'"
 -->
     <p class="slideshowCG1-slide-thumbnailsLVes" style="left: 0px; top: 0px;">
 <!--JS version fail-->
+      <span class="" style="width: 310px; height: 100px;">&nbsp;</span>
       <span class="" style="width: 310px; height: 100px;">&nbsp;</span>
       <span class="" style="width: 310px; height: 100px;">&nbsp;</span>
       <span class="" style="width: 310px; height: 100px;">&nbsp;</span>
