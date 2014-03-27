@@ -1,0 +1,22 @@
+Drag template (dwt) files out to root folder when editing file should not be open when draging & getting links to work.txt
+
+Note that any link contain in sliderCGbestvascript declaration will not change when moving from location to location.
+
+In the dwt template folder all links changes to ./assets/etc.
+Draw it to root folder to see the images.
+
+If the instances created from dwt is not in ROOT folder but in
+
+!!! Due to Javascript not changing we have to change those extension ourselve !!!
+
+folder level	extension	
+============	=========
+1st		../assets/etc
+2nd		../../assets/etc
+3rd		../../../assets/etc
+.
+.
+.
+
+
+NOTE: IF YOU DON'T KNOW THE EXTENSION TO THAT FOLDER DRAG THE DWT TO THAT FOLDER AND LOOK AT THE LINKS THAT CHANGES AND USE THOSE EXTENSION FOR THE JAVASCRIPT ONE THAT DOESN'T CHANGE.
