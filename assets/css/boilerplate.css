@@ -64,9 +64,9 @@ body, button, input, select, textarea {
    Links
    ========================================================================== */
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+a { color: #000; }
+a:visited { color: #000; }
+a:hover { color: #000; }
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */

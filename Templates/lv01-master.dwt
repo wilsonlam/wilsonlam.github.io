@@ -50,8 +50,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<!-- TemplateBeginEditable name="head" -->
-<!-- TemplateEndEditable -->
+
 <!-- TemplateParam name="Slideshow1Refresh" type="boolean" value="false" -->
 <!-- TemplateParam name="Slideshow1_cssjs" type="boolean" value="false" -->
 <!-- TemplateParam name="Slideshow2" type="boolean" value="true" -->
@@ -641,7 +640,25 @@ rand_imglink()
 		<div class="fheading02">Site Manager: Wilson Lam</div>
         <p></p><div class="imgborder00-1"><img src="../assets/02-about/WL.jpg" alt="Wilson Lam" /><div class="imgborder00-2"></div></div>
         <div class="divtext078">Hi, I am Wilson, the manager of this site and a graduate of UCLA. My field during my undergraduate was Mechanical Engineer (ME) so expect most materials to be in the ME field.<br><br>I wish to create this site to benefit those that are still students and hope you would enjoy the material I posted. For those that wish to know more about my expertise you can check out my resume below if the link becomes available.<p align="center"><a href="#" class="black"><strong>Wilson's Resume</strong></a></p></div>
-		<!-- TemplateEndEditable --></div>
+		<!-- TemplateEndEditable -->
+        
+<!--Script for Forum/Comments Start-->
+            <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'wilsonlam'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the comments.</noscript>
+<!--Script for Forum/Comments End-->       
+    
+        </div>
     </div>
   <!-- Contents End 2-->
   <!-- Bottom Start-->

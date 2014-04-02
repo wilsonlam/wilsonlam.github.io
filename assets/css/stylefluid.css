@@ -331,7 +331,6 @@ box-shadow: inset 0 0 12px 12px rgba(255,255,255,0.5);
 	width: 100%;
 	display: block;
 	border-style: ridge;
-	color: #FFF;
 }
 #Contents2 {
 	/* Curve Border */
@@ -604,6 +603,10 @@ p {
 Content Heading, Text, & Div
 //////////////////////////////
 */
+/*Forum*/
+.publisher-anchor-color a {
+	color: #000; 
+	}
 .tab{text-indent:40px;}
 .tab2{text-indent:100px;}
 .center{margin: 0 auto;}
