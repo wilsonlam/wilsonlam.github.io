@@ -1,0 +1,8 @@
+Review:
+http://www.w3schools.com/html/html_head.asp
+
+Stuff for website:
+http://stackoverflow.com/questions/9222245/what-are-the-limits-of-github-hosting
+
+Adding Forum Style Messaging:
+https://disqus.com/
