@@ -506,23 +506,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf000000', e
 	text-align: center;
 	height: auto;
 }
-/* Links *//*---------------------------------------*/
+/* ================================================================================
+   Links (NOTE: Changing the "a" css color will change the Disqus hyperlink colors)
+   ================================================================================ */
 a:link, a:visited {
-	color: #FFF;
+	color: #999; /*#b4b7c5*/
 	text-decoration: none;
 }
 a:hover {
-	color: #FFF;
+	color: #999;
 	text-decoration: underline;
 }
 a:active {
+	color: #999;
 	text-decoration: none;
 }
-.black, .black:link {
-	color: #000;
-	text-decoration: none;
-}
-.black:visited {
+/*black Links*/
+.black, .black:link, .black:visited {
 	color: #000;
 	text-decoration: none;
 }
@@ -534,7 +534,7 @@ a:active {
 	color: #000;
 	text-decoration: none;
 }
-/*////////////////*/
+/*black2 Links*/
 .black2, .black2:link, .black2:visited, .black2:hover, .black2:active {
 	color: #000 !important;
 	text-decoration: none;
