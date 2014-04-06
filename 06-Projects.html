@@ -201,13 +201,18 @@ Page Contents
       <div class="slideshowCG1-SS1MainWrap clearfix">
       
     <div id="slideshowCG1-top" class="clearfix">
-    <div class="slideshow1remakeborder">
+    <div class="slideshow1remakeborder"><noscript class="noJS">JavaScript not enabled!</noscript>
       <div class="slideshowCG1-ssLSMenu ssLSMenu_blank  clearfix">
-<div class="slideshowCG1-slidewrap_blank slideshowCG1-MCEs" id="slideshowCG1-slide-bestCC" style="visibility: visible;">
+<div class="slideshowCG1-slidewrap_blank slideshowCG1-MCEs" id="slideshowCG1-slide-bestCC" style="display: none;">
   <div class="slideshowCG1-mainslideshow1-enclose1" style="width: 660px; height: 300px;">
-  <div id="HomeSlideshowOverShadow"></div>
+  <div id="HomeSlideshowOverShadow" style="display: none;"></div>
+<!--Switch display from "Hide" to "Block" for id="HomeSlideshowOverShadow"-->
+<script>
+document.getElementById('HomeSlideshowOverShadow').style.display = "block";<!--This removes the shadow-->
+<!--Removes whole div and weird space.-->
+document.getElementById('slideshowCG1-slide-bestCC').style.display = "block";
+</script>
   	<div class="slideshowCG1-main-slide" style="width: 5480px; left: -660px;">
-    
 
 <!--============================================================================================================================================================-->
 <script>
@@ -558,6 +563,7 @@ document.write(x60+img60s10[s60_10]+x60_1+head660s10[1]+'" title="'+head660s10[1
 <!-- Slideshow Autorefresh Version End-->
 
 <!--End of Slideshow-->
+
   <!-- Contents Start 2-->
   <div id="Spacer003">
     <p></p>
@@ -667,7 +673,27 @@ document.write(x60+img60s10[s60_10]+x60_1+head660s10[1]+'" title="'+head660s10[1
 (Better suggestion? Email me: <a class="black" href="mailto:wilsonqanda@gmail.com">wilsonqanda@gmail.com</a>)
 
 		<!-- InstanceEndEditable -->
-        
+
+<!-- START: Livefyre Embed -->
+<div id="livefyre-comments"></div>
+<script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script>
+<script type="text/javascript">
+(function () {
+    var articleId = fyre.conv.load.makeArticleId(null);
+    fyre.conv.load({}, [{
+        el: 'livefyre-comments',
+        network: "livefyre.com",
+        siteId: "356675",
+        articleId: articleId,
+        signed: false,
+        collectionMeta: {
+            articleId: articleId,
+            url: fyre.conv.load.makeCollectionUrl(),
+        }
+    }], function() {});
+}());
+</script>
+<!-- END: Livefyre Embed -->
 <!--Script for Forum/Comments Start-->
 <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -683,7 +709,7 @@ document.write(x60+img60s10[s60_10]+x60_1+head660s10[1]+'" title="'+head660s10[1
         })();
 	-->
     </script>
-    <noscript>Please enable JavaScript to view the comments.</noscript>
+<!--    <noscript>Please enable JavaScript to view the comments.</noscript>-->
 <!--Script for Forum/Comments End-->       
     
         </div>

@@ -199,6 +199,9 @@ Page Contents
 <div id="Spacer001">
   <div id="Slideshow">
     <div id="Slideshow-border">
+	<noscript class="noJS">
+	  JavaScript not enabled!
+	</noscript>
 <!--Refresh Changes Image/Description/Links using JavaScript-->
 <script> // All var must be same length in this case.
 function rand_imglink(){
@@ -265,6 +268,7 @@ rand_imglink()
   </div>
 </div>
 <!--End of Slideshow-->
+
   <!-- Contents Start 2-->
   <div id="Spacer003">
     <p></p>
@@ -286,7 +290,7 @@ rand_imglink()
         <br />
         I wish to create this site to benefit those that are still students and hope you would enjoy the material I posted. For those that wish to know more about my expertise you can check out my resume below if the link becomes available.
         <p align="center"><a href="assets/02-about/Wilson Lam- RESUME v3.pdf" class="black"><strong>Wilson's Resume</strong></a></p>
-        </div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        </div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         
         <div class="fheading02" style="font-size:19px;">University of California, Los Angeles Courses:</div><br />
 		<button id="showhide01_1" onClick='document.getElementById("showhide01").src="assets/02-about/courses.html";'>Show/Hide PDF</button>
@@ -298,7 +302,27 @@ rand_imglink()
         <button onclick="window.open('assets/02-about/Wilson Lam- RESUME v3.pdf')">Full Screen</button>
         <iframe id="showhide02" frameborder="0" height="1100" width="100%"></iframe>
       <!-- InstanceEndEditable -->
-        
+
+<!-- START: Livefyre Embed -->
+<div id="livefyre-comments"></div>
+<script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script>
+<script type="text/javascript">
+(function () {
+    var articleId = fyre.conv.load.makeArticleId(null);
+    fyre.conv.load({}, [{
+        el: 'livefyre-comments',
+        network: "livefyre.com",
+        siteId: "356675",
+        articleId: articleId,
+        signed: false,
+        collectionMeta: {
+            articleId: articleId,
+            url: fyre.conv.load.makeCollectionUrl(),
+        }
+    }], function() {});
+}());
+</script>
+<!-- END: Livefyre Embed -->
 <!--Script for Forum/Comments Start-->
 <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -314,7 +338,7 @@ rand_imglink()
         })();
 	-->
     </script>
-    <noscript>Please enable JavaScript to view the comments.</noscript>
+<!--    <noscript>Please enable JavaScript to view the comments.</noscript>-->
 <!--Script for Forum/Comments End-->       
     
         </div>

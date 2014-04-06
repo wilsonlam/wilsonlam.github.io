@@ -49,7 +49,11 @@ html {
 	-o-background-size: cover;
 	background-size: cover;
 }
-
+.noJS {
+	font-size: 80px;
+	text-align: center;
+	padding-left: 48px;
+	}
 /* Mobile Layout: 480px and below. */
 .gridContainer {
 	width: 87.36%;
@@ -98,6 +102,7 @@ html {
 	-webkit-box-shadow: inset 0 0 12px 12px rgba(255,255,255,0.5);
 	box-shadow: inset 0 0 12px 12px rgba(255,255,255,0.5);
 	z-index: 2;
+	display: none;
 }
 #Top {
 	/* Curve Border */

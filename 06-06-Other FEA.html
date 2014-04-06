@@ -199,6 +199,9 @@ Page Contents
 <div id="Spacer001">
   <div id="Slideshow">
     <div id="Slideshow-border">
+	<noscript class="noJS">
+	  JavaScript not enabled!
+	</noscript>
 <!--Refresh Changes Image/Description/Links using JavaScript-->
 <script> // All var must be same length in this case.
 function rand_imglink(){
@@ -265,6 +268,7 @@ rand_imglink()
   </div>
 </div>
 <!--End of Slideshow-->
+
   <!-- Contents Start 2-->
   <div id="Spacer003">
     <p></p>
@@ -338,7 +342,27 @@ rand_imglink()
 <p>* Use Show/Hide if on desktop for best view. Works for most smart phone but low quality with some formating errors.<br />
 (Better suggestion? Email me: <a class="black" href="mailto:wilsonqanda@gmail.com">wilsonqanda@gmail.com</a>)</p>
 		<!-- InstanceEndEditable -->
-        
+
+<!-- START: Livefyre Embed -->
+<div id="livefyre-comments"></div>
+<script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script>
+<script type="text/javascript">
+(function () {
+    var articleId = fyre.conv.load.makeArticleId(null);
+    fyre.conv.load({}, [{
+        el: 'livefyre-comments',
+        network: "livefyre.com",
+        siteId: "356675",
+        articleId: articleId,
+        signed: false,
+        collectionMeta: {
+            articleId: articleId,
+            url: fyre.conv.load.makeCollectionUrl(),
+        }
+    }], function() {});
+}());
+</script>
+<!-- END: Livefyre Embed -->
 <!--Script for Forum/Comments Start-->
 <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -354,7 +378,7 @@ rand_imglink()
         })();
 	-->
     </script>
-    <noscript>Please enable JavaScript to view the comments.</noscript>
+<!--    <noscript>Please enable JavaScript to view the comments.</noscript>-->
 <!--Script for Forum/Comments End-->       
     
         </div>
