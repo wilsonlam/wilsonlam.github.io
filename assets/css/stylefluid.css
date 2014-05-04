@@ -603,6 +603,23 @@ p {
 .contentimgtext {
 	text-align: center;
 }
+.newspaper8
+{
+-webkit-column-count:12; /* Chrome, Safari, Opera */
+-moz-column-count:12; /* Firefox */
+column-count:12;
+
+-webkit-column-gap:1px; /* Chrome, Safari, Opera */
+-moz-column-gap:1px; /* Firefox */
+column-gap:1px;
+height: 28px;
+
+-webkit-column-rule:1px outset #CCC;
+-moz-column-rule:1px outset #CCC;
+column-rule:1px outset #CCC;
+
+text-align: center;
+}
 /*
 //////////////////////////////
 Content Heading, Text, & Div
@@ -614,7 +631,7 @@ Content Heading, Text, & Div
 	}
 .tab{text-indent:40px;}
 .tab2{text-indent:100px;}
-.center{margin: 0 auto;}
+.center{margin: 0 auto 0 auto;}
 #showhide01,#showhide02,#showhide03,#showhide04,#showhide05,#showhide06,#showhide07,#showhide08,#showhide09,#showhide10{display: none;}
 .fheading01 {
 	font-size: 200%;

@@ -6,7 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb"><!-- InstanceBegin template="/Templates/lv01-master.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-<base href="">
+<base href="" />
 <!-- This Version Is for Adjustable width -->
 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 <meta name="viewport" content="width=980px" />
@@ -27,12 +27,9 @@ CSS links (Style Sheet)
 ----------------------------------------------------------------------------------->
 <link rel="stylesheet" type="text/css" href="assets/css/boilerplate.css" />
 <link rel="stylesheet" type="text/css" href="SpryAssets/SpryMenuBarHorizontalv1.css" />
-
 <!-- InstanceBeginEditable name="CSSfluidorfixed" -->
 <link rel="stylesheet" type="text/css" href="assets/css/stylefluid.css" />
 <!-- InstanceEndEditable -->
-
-
 
 <!-- 
 To learn more about the conditional comments around the html tags at the top of the file:
@@ -47,10 +44,11 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-
 <!-- InstanceParam name="Slideshow1Refresh" type="boolean" value="false" -->
 <!-- InstanceParam name="Slideshow1_cssjs" type="boolean" value="false" -->
 <!-- InstanceParam name="Slideshow2" type="boolean" value="true" -->
+<!-- InstanceParam name="Non-Slideshow" type="boolean" value="true" -->
+<!-- InstanceParam name="Slideshow" type="boolean" value="false" -->
 </head>
 <!--Google Analytics Tracking-->
 <script type="text/javascript">
@@ -65,6 +63,7 @@ Do the following if you're using your customized build of modernizr (http://www.
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
+<!--Chat-->
 <script id="sid0020000051638316445">(function() {function async_load(){s.id="cid0020000051638316445";s.src='http://st.chatango.com/js/gz/emb.js';s.style.cssText="width:200px;height:320px;";s.async=true;s.text='{"handle":"wilsonprojects","arch":"js","styles":{"a":"e0e0e0","b":78,"c":"000000","d":"000000","e":"ffffff","f":84,"i":79,"k":"000000","l":"a0a0a0","m":"000000","n":"FFFFFF","o":59,"p":"11.25","q":"606060","r":78,"t":0,"usricon":0.62,"pos":"br","cv":1,"cvbg":"000000","cvbga":59,"cvw":75,"cvh":40,"sbc":"808080","sba":79,"surl":0,"cnrs":"0.24"}}';var ss = document.getElementsByTagName('script');for (var i=0, l=ss.length; i < l; i++){if (ss[i].id=='sid0020000051638316445'){ss[i].id +='_';ss[i].parentNode.insertBefore(s, ss[i]);break;}}}var s=document.createElement('script');if (s.async==undefined){if (window.addEventListener) {addEventListener('load',async_load,false);}else if (window.attachEvent) {attachEvent('onload',async_load);}}else {async_load();}})();</script>
 <!----------------------------------------------------------------------------------
 Page Contents
@@ -339,16 +338,80 @@ rand_imglink()
     </script>
 <!--    <noscript>Please enable JavaScript to view the comments.</noscript>-->
 <!--Script for Forum/Comments End-->       
+<!--Plugin-->
 
-<!-- Site Meter -->
-<script type="text/javascript" src="http://s51.sitemeter.com/js/counter.js?site=s51wilsonproject">
-</script>
-<noscript>
-<a href="http://s51.sitemeter.com/stats.asp?site=s51wilsonproject" target="_top">
-<img src="http://s51.sitemeter.com/meter.asp?site=s51wilsonproject" alt="Site Meter" border="0"/></a>
-</noscript>
-<!-- Copyright (c)2009 Site Meter -->
+<!--Plugin-->
 
+<style>
+.bottom{
+        position: relative;
+        top:0px;
+        left:0px;
+        height: 32px;
+        width: 86px;
+        /*background-color: green;*/
+        color: white;
+        float: left;
+        margin-right: 3px;
+}
+.bottom2{
+        position: relative;
+        top:0px;
+        left:0px;
+        height: 32px;
+        width: 125px;
+        /*background-color: green;*/
+        color: white;
+        float: left;
+        margin-right: 3px;
+}
+.bottom3{
+        position: relative;
+        top:0px;
+        left: 0px;
+        height: 32px;
+        width: 600px;
+        /*background-color: green;*/
+        color: white;
+        float: left;
+        margin-right: 3px;
+}
+</style>
+<div class="bottom">
+  <!-- Site Meter -->
+  <script type="text/javascript" src="http://s51.sitemeter.com/js/counter.js?site=s51wilsonproject"></script>
+  <noscript>
+    <a href="http://s51.sitemeter.com/stats.asp?site=s51wilsonproject" target="_top"> <img src="http://s51.sitemeter.com/meter.asp?site=s51wilsonproject" alt="Site Meter" border="0"/></a>
+    </noscript>
+  <!-- Copyright (c)2009 Site Meter -->
+</div>
+<!--Facebook Like Buttons-->
+<div class="bottom2">
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <div class="fb-like" data-href="http://wilsonlam.github.io/06-Projects.html" data-width="60" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+</div>
+<div class="bottom3">
+  <!-- AddThis Button BEGIN -->
+  <div class="addthis_toolbox addthis_default_style">
+  <a class="addthis_button_facebook_send"></a>
+  <a class="addthis_button_linkedin_counter"></a>
+  <a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal" pi:pinit:url="http://www.addthis.com/features/pinterest" pi:pinit:media="http://www.addthis.com/cms-content/images/features/pinterest-lg.png"></a>
+  <a class="addthis_button_tweet"></a>
+  <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+  <a class="addthis_counter addthis_pill_style"></a> </div>
+  <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-535763a47d68c265"></script>
+  <!-- AddThis Button END -->
+</div>
+
+<!--Plugin-->
         </div>
     </div>
   <!-- Contents End 2-->
@@ -365,7 +428,6 @@ rand_imglink()
 		<a class="white" href="https://twitter.com/Wilsonqanda">Twitter</a><br />
         <a class="white" href="https://wp.me/P3NATf-f">Wordpress</a><br />
       </p>
-      
     </div>
     <div id="BottomCenter">
       <p class="followcopycontact">&copy;<!--Copyright Symbol ©--> Copyright 2005<script>document.write("-"+new Date().getFullYear())</script>.
