@@ -3,7 +3,8 @@
 <!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
 <!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb"><!-- InstanceBegin template="/Templates/lv01-master.dwt" codeOutsideHTMLIsLocked="false" --><head>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb"><!-- InstanceBegin template="/Templates/lv01-master.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 <base href="" />
 <!-- This Version Is for Adjustable width -->
@@ -38,9 +39,6 @@ CSS links (Style Sheet)
 <link rel="stylesheet" type="text/css" href="assets/css/stylefluid.css" />
 <!-- InstanceEndEditable -->
 
-<script src="assets/js/slideshow1.js"></script>
-<link rel="stylesheet" type="text/css" href="assets/css/slideshow1.css" />
-
 <!-- 
 To learn more about the conditional comments around the html tags at the top of the file:
 paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
@@ -54,11 +52,11 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<!-- InstanceParam name="Slideshow1Refresh" type="boolean" value="true" -->
-<!-- InstanceParam name="Slideshow1_cssjs" type="boolean" value="true" -->
-<!-- InstanceParam name="Slideshow2" type="boolean" value="false" -->
-<!-- InstanceParam name="Slideshow" type="boolean" value="true" -->
-<!-- InstanceParam name="Non-Slideshow" type="boolean" value="true" -->
+<!-- InstanceParam name="Slideshow1Refresh" type="boolean" value="false" -->
+<!-- InstanceParam name="Slideshow1_cssjs" type="boolean" value="false" -->
+<!-- InstanceParam name="Slideshow2" type="boolean" value="true" -->
+<!-- InstanceParam name="Slideshow" type="boolean" value="false" -->
+<!-- InstanceParam name="Non-Slideshow" type="boolean" value="false" -->
 </head>
 <!--Google Analytics Tracking-->
 <script type="text/javascript">
@@ -79,13 +77,13 @@ Do the following if you're using your customized build of modernizr (http://www.
 Page Contents
 ----------------------------------------------------------------------------------->
 <body>
-<div class="gridContainer clearfix">
+<div itemscope itemtype="http://schema.org/Event" class="gridContainer clearfix">
 <!-- Contents Start 1-->
 <div id="Top"> <!-- Change id to Top to get the border back -->
 	<br /><!--top padding-->
 	<div id="Logo"></div>
 <ul id="MenuBar1" class="MenuBarHorizontal">
-  <li><a href="01-home.html" class="MenuBarItemSubmenu MenuBarItemSubmenu">Home</a>
+  <li><a href="01-home.html" class="MenuBarItemSubmenu MenuBarItemSubmenu"><span itemprop="name">Home</span></a>
     <ul>
       <li><a href="http://dl.dropboxusercontent.com/u/200612634/wilsonlam.bitbucket.org/01-home.html">Server Testing 1</a></li>
     </ul>
@@ -206,372 +204,79 @@ Page Contents
 <!--Start of Slideshow-->
 <!-- Slideshow Autorefresh Version Start-->
 
-<div id="slide-enclosure">
-<div id="Slideshow"><!--Add Original Slideshow Here-->
-      <div class="slideshowCG1-SS1MainWrap clearfix">
-      
-    <div id="slideshowCG1-top" class="clearfix">
-    <div class="slideshow1remakeborder"><noscript class="noJS">JavaScript not enabled!</noscript>
-      <div class="slideshowCG1-ssLSMenu ssLSMenu_blank  clearfix">
-<div class="slideshowCG1-slidewrap_blank slideshowCG1-MCEs" id="slideshowCG1-slide-bestCC" style="display: none;">
-  <div class="slideshowCG1-mainslideshow1-enclose1" style="width: 660px; height: 300px;">
-  <div id="HomeSlideshowOverShadow" style="display: none;"></div>
-<!--Switch display from "Hide" to "Block" for id="HomeSlideshowOverShadow"-->
-<script>
-document.getElementById('HomeSlideshowOverShadow').style.display = "block";<!--This removes the shadow-->
-<!--Removes whole div and weird space.-->
-document.getElementById('slideshowCG1-slide-bestCC').style.display = "block";
-</script>
-  	<div class="slideshowCG1-main-slide" style="width: 5480px; left: -660px;">
-
-<!--============================================================================================================================================================-->
-<script>
-function rand_imglink(){
-/*
-NOTE: Image fail to load if following conditions are not satisfied
-	- All variable declaration need to be AFTER ARRAY
-*////////////////////////////////////////////////////////////////////
-// Slideshow 660x300 Random Image, Heading, Description, Link
-// Slideshow 60x60 Image (Using same Heading & Description as above)
-/////////////////////////////////////////////////////////////////////
-// Slide 1
-var img660s1=new Array()
-img660s1[1]="./assets/home/slideshow660px/1v001.jpg"
-img660s1[2]="./assets/home/slideshow660px/1v002.jpg"
-img660s1[3]="./assets/home/slideshow660px/1v003.jpg"
-img660s1[4]="./assets/home/slideshow660px/1v004.jpg"
-//Slide 2 
-var img660s2=new Array()
-img660s2[1]="./assets/home/slideshow660px/2v001.png"
-//Slide 3
-var img660s3=new Array()
-img660s3[1]="./assets/home/slideshow660px/3v001.jpg"
-img660s3[2]="./assets/home/slideshow660px/3v002.jpg"
-img660s3[3]="./assets/home/slideshow660px/3v003.jpg"
-img660s3[4]="./assets/home/slideshow660px/3v004.jpg"
-// Slide 4
-var img660s4=new Array()
-img660s4[1]="./assets/home/slideshow660px/4v001.jpg"
-img660s4[2]="./assets/home/slideshow660px/4v002.jpg"
-img660s4[3]="./assets/home/slideshow660px/4v003.jpg"
-img660s4[4]="./assets/home/slideshow660px/4v004.jpg"
-// Slide 5
-var img660s5=new Array()
-img660s5[1]="./assets/home/slideshow660px/5v001.jpg"
-img660s5[2]="./assets/home/slideshow660px/5v002.jpg"
-img660s5[3]="./assets/home/slideshow660px/5v003.jpg"
-// Slide 6
-var img660s6=new Array()
-img660s6[1]="./assets/home/slideshow660px/6v001.jpg"
-img660s6[2]="./assets/home/slideshow660px/6v002.jpg"
-img660s6[3]="./assets/home/slideshow660px/6v003.jpg"
-img660s6[4]="./assets/home/slideshow660px/6v004.jpg"
-img660s6[5]="./assets/home/slideshow660px/6v005.jpg"
-// Slide 7
-var img660s7=new Array()
-img660s7[1]="./assets/home/slideshow660px/7v001.gif"
-img660s7[2]="./assets/home/slideshow660px/7v002.gif"
-// Slide 8
-var img660s8=new Array()
-img660s8[1]="./assets/home/slideshow660px/8v001.gif"
-img660s8[2]="./assets/home/slideshow660px/8v002.png"
-img660s8[3]="./assets/home/slideshow660px/8v003.png"
-// Slide 9
-var img660s9=new Array()
-img660s9[1]="./assets/home/slideshow660px/9v001.gif"
-img660s9[2]="./assets/home/slideshow660px/9v002.gif"
-img660s9[3]="./assets/home/slideshow660px/9v003.jpg"
-img660s9[4]="./assets/home/slideshow660px/9v004.jpg"
-// Slide 10
-var img660s10=new Array()
-img660s10[1]="./assets/home/slideshow660px/new.gif"
-
-// Slideshow 660x300 Heading	(NOTE: Same heading is used in the 60x60) ////////////////////////////////////////////////////////
-var head660s1=new Array()	// Heading 1
-head660s1[1]="Project Magneton"
-var head660s2=new Array()	// Heading 2
-head660s2[1]="pocketRULER"
-var head660s3=new Array()	// Heading 3
-head660s3[1]="Team Robotic 2007"
-var head660s4=new Array()	// Heading 4
-head660s4[1]="Team Robotic 2009"
-var head660s5=new Array()	// Heading 5
-head660s5[1]="Project Panthra 2013"
-var head660s6=new Array()	// Heading 6
-head660s6[1]="Web Design"
-var head660s7=new Array()	// Heading 7
-head660s7[1]="Linear Motion Table"
-var head660s8=new Array()	// Heading 8
-head660s8[1]="Connecting Rod"
-var head660s9=new Array()	// Heading 9
-head660s9[1]="Balsa Wood Bridge"
-var head660s10=new Array()	// Heading 10
-head660s10[1]="Project 10"
-
-// Slideshow 660x300 Text	(NOTE: Same description is used in the 60x60) /////////////////////////////////////////////////////////
-var des660s1=new Array()	// Text 1
-des660s1[1]="Creating CAD model and assemblying physical model. (Rapid-Prototyping)"
-var des660s2=new Array()	// Text 2
-des660s2[1]="Creating CAD, FEA, physical model, and present working product after many design iterations"
-var des660s3=new Array()	// Text 3
-des660s3[1]="Designed to accomplish the task of collecting tennis ball. (Design Type: Conveyor Belt)"
-var des660s4=new Array()	// Text 4
-des660s4[1]="Simple designed to collect various hand size object. (Design Type: Gripper Arm)"
-var des660s5=new Array()	// Text 5
-des660s5[1]="Panthra, the robot, is designed to autonomously carry lead disk to receptacle bin."
-var des660s6=new Array()	// Text 6
-des660s6[1]="View my personally designed webpages."
-var des660s7=new Array()	// Text 7
-des660s7[1]="Optimization of 6 bar linkage in Matlab and power analysis of motor."
-var des660s8=new Array()	// Text 8
-des660s8[1]="Perform theoretical calculation then optimize and verify using Matlab, Abaqus, Comsol, and Solidworks."
-var des660s9=new Array()	// Text 9
-des660s9[1]="Creating CAD model, performing FEA, building physical model, and testing Balsa Wood Bridge."
-var des660s10=new Array()	// Text 10
-des660s10[1]="Not available yet."
-
-// Slideshow 660x300 Link	(NOTE: Same link is used in the 60x60) /////////////////////////////////////////////////////////////
-var link660s1=new Array()	// Link 1
-link660s1[1]="06-01-Magneton.html"
-var link660s2=new Array()	// Link 2
-link660s2[1]="06-08-pocket-ruler.html"
-var link660s3=new Array()	// Link 3
-link660s3[1]="06-Projects.html"
-var link660s4=new Array()	// Link 4
-link660s4[1]="06-Projects.html"
-var link660s5=new Array()	// Link 5
-link660s5[1]="06-05-Project_Panthra.html"
-var link660s6=new Array()	// Link 6
-link660s6[1]="06-06-web-design.html"
-var link660s7=new Array()	// Link 7
-link660s7[1]="06-07-linear_motion_table.html"
-var link660s8=new Array()	// Link 8
-link660s8[1]="06-12-connecting_rod.html"
-var link660s9=new Array()	// Link 9
-link660s9[1]="06-02-Balsawood_Bridge.html"
-var link660s10=new Array()	// Link 10
-link660s10[1]="06-Projects.html"
-
-// Slideshow 60x60 Image (Using same Heading & Description as above) /////////////////////////////////////////////////////////////
-var img60s1=new Array()	// Link 1
-img60s1[1]="assets/home/slideshow60px/60-1.jpg"
-var img60s2=new Array()	// Link 2
-img60s2[1]="assets/home/slideshow60px/60-2.gif"
-var img60s3=new Array()	// Link 3
-img60s3[1]="assets/home/slideshow60px/60-3.jpg"
-var img60s4=new Array()	// Link 4
-img60s4[1]="assets/home/slideshow60px/60-4.jpg"
-var img60s5=new Array()	// Link 5
-img60s5[1]="assets/home/slideshow60px/60-5.jpg"
-var img60s6=new Array()	// Link 6
-img60s6[1]="assets/home/slideshow60px/60-6.jpg"
-var img60s7=new Array()	// Link 7
-img60s7[1]="assets/home/slideshow60px/60-7.gif"
-img60s7[2]="assets/home/slideshow60px/60-7_2.jpg"
-var img60s8=new Array()	// Link 8
-img60s8[1]="assets/home/slideshow60px/60-8.png"
-var img60s9=new Array()	// Link 9
-img60s9[1]="assets/home/slideshow60px/60-9.jpg"
-var img60s10=new Array()	// Link 10
-img60s10[1]="assets/home/slideshow60px/new.gif"
-
-////////////////////////////////////////////
-// Variable Declaration and Randomization //
-////////////////////////////////////////////
-var s1=Math.floor(Math.random()*img660s1.length)
-if (s1==0)
-s1=1
-var s2=Math.floor(Math.random()*img660s2.length)
-if (s2==0)
-s2=1
-var s3=Math.floor(Math.random()*img660s3.length)
-if (s3==0)
-s3=1
-var s4=Math.floor(Math.random()*img660s4.length)
-if (s4==0)
-s4=1
-var s5=Math.floor(Math.random()*img660s5.length)
-if (s5==0)
-s5=1
-var s6=Math.floor(Math.random()*img660s6.length)
-if (s6==0)
-s6=1
-var s7=Math.floor(Math.random()*img660s7.length)
-if (s7==0)
-s7=1
-var s8=Math.floor(Math.random()*img660s8.length)
-if (s8==0)
-s8=1
-var s9=Math.floor(Math.random()*img660s9.length)
-if (s9==0)
-s9=1
-var s10=Math.floor(Math.random()*img660s10.length)
-if (s10==0)
-s10=1
-/////////////////////////////////////////////////////////
-var s60_1=Math.floor(Math.random()*img60s1.length)
-if (s60_1==0)
-s60_1=1
-var s60_2=Math.floor(Math.random()*img60s2.length)
-if (s60_2==0)
-s60_2=1
-var s60_3=Math.floor(Math.random()*img60s3.length)
-if (s60_3==0)
-s60_3=1
-var s60_4=Math.floor(Math.random()*img60s4.length)
-if (s60_4==0)
-s60_4=1
-var s60_5=Math.floor(Math.random()*img60s5.length)
-if (s60_5==0)
-s60_5=1
-var s60_6=Math.floor(Math.random()*img60s6.length)
-if (s60_6==0)
-s60_6=1
-var s60_7=Math.floor(Math.random()*img60s7.length)
-if (s60_7==0)
-s60_7=1
-var s60_8=Math.floor(Math.random()*img60s8.length)
-if (s60_8==0)
-s60_8=1
-var s60_9=Math.floor(Math.random()*img60s9.length)
-if (s60_9==0)
-s60_9=1
-var s60_10=Math.floor(Math.random()*img60s10.length)
-if (s60_10==0)
-s60_10=1
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////
-<!-- Slideshow Image Start (660x300px) -->
-w= '<div class="slideshowCG1-slide-item" style="width: 660px; height: 300px;"> <img src="';
-document.write(w+img660s1[s1]+'" alt="'+head660s1[1]+'" title="'+head660s1[1]+'"></div>')
-document.write(w+img660s2[s2]+'" alt="'+head660s2[1]+'" title="'+head660s2[1]+'"></div>')
-document.write(w+img660s3[s3]+'" alt="'+head660s3[1]+'" title="'+head660s3[1]+'"></div>')
-document.write(w+img660s4[s4]+'" alt="'+head660s4[1]+'" title="'+head660s4[1]+'"></div>')
-document.write(w+img660s5[s5]+'" alt="'+head660s5[1]+'" title="'+head660s5[1]+'"></div>')
-document.write(w+img660s6[s6]+'" alt="'+head660s6[1]+'" title="'+head660s6[1]+'"></div>')
-document.write(w+img660s7[s7]+'" alt="'+head660s7[1]+'" title="'+head660s7[1]+'"></div>')
-document.write(w+img660s8[s8]+'" alt="'+head660s8[1]+'" title="'+head660s8[1]+'"></div>')
-document.write(w+img660s9[s9]+'" alt="'+head660s9[1]+'" title="'+head660s9[1]+'"></div>')
-document.write(w+img660s10[s10]+'" alt="'+head660s10[1]+'" title="'+head660s10[1]+'"></div>')
-<!-- Slideshow Image Ending (660x300px) -->
-//////////////////////////////////////////////////
-        document.write('</div>')
-        document.write('<div class="popupmaskDesc" style="display: block; position: absolute; width: 660px; height: 80px; bottom: 0px; visibility: visible; zoom: 1; opacity: 0.8;">')
-        document.write('<div class="inside1"> </div>')
-        document.write('</div>                      </div>             <div class="slideshowCG1-slide-popupSS1texts">')	// This is necessary for the code to function
-//////////////////////////////////////////////////
-<!-- Slideshow Heading, Description, Link Start (660x300px) -->
-x660= '<div class="slideshowCG1-slide-popupSS1text"><a class="white" target="_parent" href="';
-x660_1= '</span></a><br><span class="desfor660">';
-document.write(x660+link660s1[1]+'"><span class="headfor660">'+head660s1[1]+x660_1+des660s1[1]+'</span></div>')
-document.write(x660+link660s2[1]+'"><span class="headfor660">'+head660s2[1]+x660_1+des660s2[1]+'</span></div>')
-document.write(x660+link660s3[1]+'"><span class="headfor660">'+head660s3[1]+x660_1+des660s3[1]+'</span></div>')
-document.write(x660+link660s4[1]+'"><span class="headfor660">'+head660s4[1]+x660_1+des660s4[1]+'</span></div>')
-document.write(x660+link660s5[1]+'"><span class="headfor660">'+head660s5[1]+x660_1+des660s5[1]+'</span></div>')
-document.write(x660+link660s6[1]+'"><span class="headfor660">'+head660s6[1]+x660_1+des660s6[1]+'</span></div>')
-document.write(x660+link660s7[1]+'"><span class="headfor660">'+head660s7[1]+x660_1+des660s7[1]+'</span></div>')
-document.write(x660+link660s8[1]+'"><span class="headfor660">'+head660s8[1]+x660_1+des660s8[1]+'</span></div>')
-document.write(x660+link660s9[1]+'"><span class="headfor660">'+head660s9[1]+x660_1+des660s9[1]+'</span></div>')
-document.write(x660+link660s10[1]+'"><span class="headfor660">'+head660s10[1]+x660_1+des660s10[1]+'</span></div>')
-<!-- Slideshow Heading, Description, Link Ending (660x300px) -->
-//////////////////////////////////////////////////
-        document.write('</div>                      <div class="slideshowCG1-slide-thumbnails-wrap slideshowCG1-vertical_right" style="width: 310px; height: 300px;">	<div class="slideshowCG1-slide-thumbnails" style="left: 0px; top: 0px;">')
-//////////////////////////////////////////////////
-// NOTE: Careful when editing the first 3 thumbnail as active div should not be deleted. -W
-<!-- Slideshow Image & Text Starting (60x60px) -->
-x60 = '<div class="slideshowCG1-slide-thumbnail" style="width: 310px; height: 100px;"><div class="slideshowCG1-slide-thumbnail-inside1"> <img src="';
-x60_1 = '" align="left" alt="';
-x60_4 = '</h3><span class="adesfor660">';
-document.write(x60+img60s1[s60_1]+x60_1+head660s1[1]+'" title="'+head660s1[1]+'"><h3>'+head660s1[1]+x60_4+des660s1[1]+'</span></div></div>')
-document.write(x60+img60s2[s60_2]+x60_1+head660s2[1]+'" title="'+head660s2[1]+'"><h3>'+head660s2[1]+x60_4+des660s2[1]+'</span></div></div>')
-document.write(x60+img60s3[s60_3]+x60_1+head660s3[1]+'" title="'+head660s3[1]+'"><h3>'+head660s3[1]+x60_4+des660s3[1]+'</span></div></div>')
-document.write(x60+img60s4[s60_4]+x60_1+head660s4[1]+'" title="'+head660s4[1]+'"><h3>'+head660s4[1]+x60_4+des660s4[1]+'</span></div></div>')
-document.write(x60+img60s5[s60_5]+x60_1+head660s5[1]+'" title="'+head660s5[1]+'"><h3>'+head660s5[1]+x60_4+des660s5[1]+'</span></div></div>')
-document.write(x60+img60s6[s60_6]+x60_1+head660s6[1]+'" title="'+head660s6[1]+'"><h3>'+head660s6[1]+x60_4+des660s6[1]+'</span></div></div>')
-document.write(x60+img60s7[s60_7]+x60_1+head660s7[1]+'" title="'+head660s7[1]+'"><h3>'+head660s7[1]+x60_4+des660s7[1]+'</span></div></div>')
-document.write(x60+img60s8[s60_8]+x60_1+head660s8[1]+'" title="'+head660s8[1]+'"><h3>'+head660s8[1]+x60_4+des660s8[1]+'</span></div></div>')
-document.write(x60+img60s9[s60_9]+x60_1+head660s9[1]+'" title="'+head660s9[1]+'"><h3>'+head660s9[1]+x60_4+des660s9[1]+'</span></div></div>')
-document.write(x60+img60s10[s60_10]+x60_1+head660s10[1]+'" title="'+head660s10[1]+'"><h3>'+head660s10[1]+x60_4+des660s10[1]+'</span></div></div>')
-<!-- Slideshow Image & Text Ending (60x60px) -->
-//////////////////////////////////////////////////
-
-} rand_imglink()</script>
-<!--============================================================================================================================================================-->      
-
-      </div>
-    
-    <div class="slideshowCG1-slide-thumbnails-popupmask" style="display: none; width: 5000px; top: -1900px;">
-      <div class="slideshowCG1-slide-thumbnails-popupmask-left" style="height: 100px; width: 2000px; visibility: visible; zoom: 1; opacity: 0.8;">&nbsp;</div>
-      <div class="slideshowCG1-slide-thumbnails-popupmask-center" style="height: 100px; width: 310px; visibility: visible; zoom: 1; opacity: 0.8;">&nbsp;</div>
-      <div class="slideshowCG1-slide-thumbnails-popupmask-right" style="height: 100px; width: 2000px; visibility: visible; zoom: 1; opacity: 0.8;">&nbsp;</div>
-      </div>
-
-<!-- Important To get the slide show to work with the side slider another line of span needs to be added or removed. For example if we want 5 slide we need 5 line of the span code.
--->
-    <p class="slideshowCG1-slide-thumbnailsLVes" style="left: 0px; top: 0px;">
-<!--JS version fail-->
-      <span class="" style="width: 310px; height: 100px;">&nbsp;</span>
-      <span class="" style="width: 310px; height: 100px;">&nbsp;</span>
-      <span class="" style="width: 310px; height: 100px;">&nbsp;</span>
-      <span class="" style="width: 310px; height: 100px;">&nbsp;</span>
-      <span class="" style="width: 310px; height: 100px;">&nbsp;</span>
-      <span class="" style="width: 310px; height: 100px;">&nbsp;</span>
-      <span class="" style="width: 310px; height: 100px;">&nbsp;</span>
-      <span class="" style="width: 310px; height: 100px;">&nbsp;</span>
-      <span class="" style="width: 310px; height: 100px;">&nbsp;</span>
-      <span class="" style="width: 310px; height: 100px;">&nbsp;</span>
-      </p>    
-    </div>
-</div>
-<!-- SlideShow1type1 ButtonControl ----------------------------------------------------------------------------->
-  <script>
-    new SS1type1('slideshowCG1-slide-bestCC', {
-			<!--Useful Buttons-->
-				popupmaskAlignment:'bottom', <!-- Option: bottom, top, left, right, none: don't put anything no motion (left is cool as well)-->
-                ItemsShown:3,
-                ItemStartHighlight:0, <!--Start at item x (0 through # of items) -->
-			<!--Height & Width -->
-                itemWidth: 310,
-                itemHeight: 100,
-                xLimgboxWidth: 660,
-                xLimgboxHeight: 300,	
-				popupmaskWidth: 660,		<!--660 default-->
-				popupmaskHeight: 100, 	<!--popup popupmask height-->
-			<!--Opacity-->
-                buttonOpacity:0.4,
-                popupmaskOpacity:0.78,
-                thumbnailOpacity:0.8,
-			<!--Time-->
-                duration: 750,		<!--Best time: right:450, bottom: -->
-				SS1interval: 7500,	<!--Best time 7500 ms -->
-			<!--Other ButtonControl-->
-                animation: 'move',
-				animationRepeat: 'true',
-				autoPlay: 1,
-                coverx: 0,
-				languageDirection:( typeof JA_LANGUAGE_DIRECTION == 'string') ? JA_LANGUAGE_DIRECTION : '',
-				scrollLocation:'vertical_right', <!-- Need to change one other location with search to move to left! -->
-                navigation:'thumbnails',
-                popupSS1textMode: 'load',
-                readmoretext: 'Readmore',
-				popupmaskerTransStyle:'style',
-				popupmaskerTrans:Fx.Transitions.linear,
-                seeText: 'popupSS1text',
-				MenuControl:1,
-                transition: Fx.Transitions.Quad.easeInOut,
-     });
-</script>
-<!-------------------------------------------------------------------------------------------------------------->
-</div>
-</div>
-    </div>
-    </div>
-    </div>
-</div>
-
 <!-- Slideshow Autorefresh Version End-->
 
+<div id="Spacer001">
+  <div id="Slideshow">
+    <div id="Slideshow-border">
+	<noscript class="noJS">
+	  JavaScript not enabled!
+	</noscript>
+<!--Refresh Changes Image/Description/Links using JavaScript-->
+<script> // All var must be same length in this case.
+function rand_imglink(){
+//Images to randomize:
+var ranimg=new Array()	/*Creating New Array*/
+ranimg[1]="./assets/slideshow2img948x300/1.jpg"
+ranimg[2]="./assets/slideshow2img948x300/2.jpg"
+ranimg[3]="./assets/slideshow2img948x300/3.jpg"
+ranimg[4]="./assets/slideshow2img948x300/4.jpg"
+ranimg[5]="./assets/slideshow2img948x300/5.jpg"
+ranimg[6]="./assets/slideshow2img948x300/6.gif"
+ranimg[7]="./assets/slideshow2img948x300/7.jpg"
+ranimg[8]="./assets/slideshow2img948x300/8.jpg"
+ranimg[9]="./assets/slideshow2img948x300/9.jpg"
+ranimg[10]="./assets/slideshow2img948x300/10.gif"
+//Images Link to randomize but correspond to images:
+var ranlink=new Array()	/*Creating New Array*/
+ranlink[1]="./06-01-Magneton.html"
+ranlink[2]="./06-06-web-design.html"
+ranlink[3]="./06-Projects.html"
+ranlink[4]="./06-Projects.html"
+ranlink[5]="./06-02-Balsawood_Bridge.html"
+ranlink[6]="./06-02-Balsawood_Bridge.html"
+ranlink[7]="./06-Projects.html"
+ranlink[8]="./06-05-Project_Panthra.html"
+ranlink[9]="./06-05-Project_Panthra.html"
+ranlink[10]="./06-02-Balsawood_Bridge.html"
+// Heading of Description
+var head=new Array()	/*Creating New Array*/
+head[1]="Project Magneton"
+head[2]="Web Design"
+head[3]="Team Robotic 2007"
+head[4]="Team Robotic 2007"
+head[5]="Balsa Wood Bridge"
+head[6]="Balsa Wood Bridge"
+head[7]="Team Robotic 2009"
+head[8]="Project Panthra 2013"
+head[9]="Projects"
+head[10]="Balsa Wood Bridge"
+//Description to randomize but correspond to images:
+var text=new Array()	/*Creating New Array*/
+text[1]="Creating CAD model and assemblying physical model. (Rapid-Prototyping)"
+text[2]="View my personally designed webpages."
+text[3]="Designed to accomplish the task of collecting tennis ball. (Design Type: Conveyor Belt)"
+text[4]="Designed to accomplish the task of collecting tennis ball. (Design Type: Conveyor Belt)"
+text[5]="Creating CAD model, performing FEA, building physical model, and testing Balsa Wood Bridge."
+text[6]="Creating CAD model, performing FEA, building physical model, and testing Balsa Wood Bridge."
+text[7]="Simple designed to collect various hand size object. (Design Type: Gripper Arm)"
+text[8]="Panthra, the robot, is designed to autonomously carry lead disk to receptacle bin."
+text[9]="View my various projects and reports on various field."
+text[10]="Creating CAD model, performing FEA, building physical model, and testing Balsa Wood Bridge."
+
+var x=Math.floor(Math.random()*ranimg.length)
+if (x==0)
+x=1
+document.write('<img src="'+ranimg[x]+'" border=0>'+'<div id="Slideshowtext">'+'<a class="white" href="'+ranlink[x]+'"><p class="slideshowheading">'+head[x]+'</p></a>'+text[x]+'</div>')
+document.write('<div onclick="window.location=')
+document.write("'"+ranlink[x]+"'")
+document.write('" id="SlideshowOverShadow"></div>')
+}
+rand_imglink()
+</script>
+    </div>
+  </div>
+</div>
 <!--End of Slideshow-->
 
   <!-- Contents Start 2-->
@@ -628,82 +333,6 @@ document.write(x60+img60s10[s60_10]+x60_1+head660s10[1]+'" title="'+head660s10[1
 <!--    <noscript>Please enable JavaScript to view the comments.</noscript>-->
 <!--Script for Forum/Comments End-->
 
-<!--Plugin-->
-<!--<iframe src="sitemeter.html" frameborder="0" height="45" width="100%"></iframe>-->
-<!-- Site Meter -->
-<a href="http://s51.sitemeter.com/stats.asp?site=s51wilsonproject" target="_top"> <img src="http://s51.sitemeter.com/meter.asp?site=s51wilsonproject" alt="Site Meter" border="0"/></a>
-
-
-<!--Plugin-->
-<style>
-.bottom{
-        position: relative;
-        top:0px;
-        left:0px;
-        height: 32px;
-        width: 86px;
-        /*background-color: green;*/
-        color: white;
-        float: left;
-        margin-right: 3px;
-}
-.bottom2{
-        position: relative;
-        top:0px;
-        left:0px;
-        height: 32px;
-        width: 125px;
-        /*background-color: green;*/
-        color: white;
-        float: left;
-        margin-right: 3px;
-}
-.bottom3{
-        position: relative;
-        top:0px;
-        left: 0px;
-        height: 32px;
-        width: 600px;
-        /*background-color: green;*/
-        color: white;
-        float: left;
-        margin-right: 3px;
-}
-</style>
-<div class="bottom">
-  <!-- Site Meter -->
-  <script type="text/javascript" src="http://s51.sitemeter.com/js/counter.js?site=s51wilsonproject"></script>
-  <noscript>
-    <a href="http://s51.sitemeter.com/stats.asp?site=s51wilsonproject" target="_top"> <img src="http://s51.sitemeter.com/meter.asp?site=s51wilsonproject" alt="Site Meter" border="0"/></a>
-    </noscript>
-  <!-- Copyright (c)2009 Site Meter -->
-</div>
-<!--Facebook Like Buttons-->
-<div class="bottom2">
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-  <div class="fb-like" data-href="http://wilsonlam.github.io/01-home.html" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-</div>
-<div class="bottom3">
-  <!-- AddThis Button BEGIN -->
-  <div class="addthis_toolbox addthis_default_style">
-  <a class="addthis_button_facebook_send"></a>
-  <a class="addthis_button_linkedin_counter"></a>
-  <a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal" pi:pinit:url="http://www.addthis.com/features/pinterest" pi:pinit:media="http://www.addthis.com/cms-content/images/features/pinterest-lg.png"></a>
-  <a class="addthis_button_tweet"></a>
-  <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-  <a class="addthis_counter addthis_pill_style"></a> </div>
-  <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-535763a47d68c265"></script>
-  <!-- AddThis Button END -->
-</div>
-<!--Plugin-->
 
         </div>
     </div>
@@ -755,5 +384,11 @@ document.write(x60+img60s10[s60_10]+x60_1+head660s10[1]+'" title="'+head660s10[1
 var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
 </script>
 </div>
+<meta itemprop="startDate" content="2005-09-10">
+<meta itemprop="name" content="Wilson's Project Page"></span>
+<meta itemprop="author" content="Wilson Lam"></span>
+<meta itemprop="url" content="http://www.wilsonlam.co.nf/">
+<meta itemprop="image" content="http://wilsonlam.github.io/assets/Project-Page.gif">
+<meta itemprop="description" content="Welcome and Explore my Projects!">
 </body>
 <!-- InstanceEnd --></html>
